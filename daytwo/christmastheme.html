@@ -3,10 +3,32 @@
     <head>
         <title>Welcome to Day Two!</title>
         <link rel ="stylesheet" href="style.css">
+        <script = "script.js"></script>
     </head>
     <body>
-        <h1>Christmas Theme Toggle
-        </h1>
-        <div class="container"></div>
+        
+        <div class="container">
+            <p id="greeting">🎅 Season Greetings!</p>
+            <div class="radio-container">
+                <input type="radio" id="christmas" name="theme" value="christmas" checked>
+                <label for="christmas">Christmas 🎅</label>
+            </div>
+            <div class="radio-container">
+                <input type="radio" id="snow" name="theme" value="snow">
+                <label for="snow">Snow ☃️</label>
+            </div>
+
+            <div class="theme-switches">
+
+                <div data-theme="light" class="switch" id="switch-1"></div>
+    
+                <div data-theme="sky" class="switch" id="switch-2"></div>
+    
+                <div data-theme="purple" class="switch" id="switch-3"></div>
+    
+                <div data-theme="dark" class="switch" id="switch-4"></div>
+    
+            </div>
+        </div>
     </body>
 </html>
