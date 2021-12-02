@@ -12,6 +12,12 @@ html, body {
     padding: 0;
 }
 
+h1{
+    font-size: large;
+    color: black;
+    font-family: fantasy, "Papyrus";
+}
+
 body {
     display: flex;
     flex-direction: column;
