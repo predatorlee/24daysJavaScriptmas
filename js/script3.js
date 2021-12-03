@@ -1,15 +1,17 @@
 const body = document.getElementById("body")
+
 const greeting = document.getElementById("greeting")
 
 const btn = document.getElementById("btn")
-
-const christmasBtn = document.getElementById("christmas")
-christmasBtn.addEventListener("click", christmassify)
+btn.addEventListener("click", christmassify)
+//const christmasBtn = document.getElementById("christmas")
+//christmasBtn.addEventListener("click", christmassify)
 
 function fix() {
-  body.classList.remove("greeting");
-  body.classList.add("christmas");
-  greeting.innerHTML = `🎅`
+  body.classList.remove('🎃');
+  body.classList.add('🎅');
+  greeting.innerHTML = `🎅 Merry Christmas`
+
   // Task:
   // - Write a function to fix the UI problems with this Christmas message (make it Christmassy!)
   // - Run the function when the Fix button is clicked.
