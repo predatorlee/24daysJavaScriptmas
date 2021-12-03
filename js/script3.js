@@ -2,10 +2,14 @@ const body = document.getElementById("body")
 
 const greeting = document.getElementById("greeting")
 
+const christmassify = document.getElementById("christmassify")
+
 const btn = document.getElementById("btn")
 btn.addEventListener("click", christmassify)
 //const christmasBtn = document.getElementById("christmas")
 //christmasBtn.addEventListener("click", christmassify)
+document.getElementById("btn").innerHTML="🎅";
+document.getElementById("greeting").onclick=GoBack;
 
 function fix() {
   body.classList.remove('🎃');
