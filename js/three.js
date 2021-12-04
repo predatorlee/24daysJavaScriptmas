@@ -1,13 +1,10 @@
-// Day three challenge
-const greeting = document.getElementById("greeting")
-const btn = document.getElementById("btn")
+const items = ["Candles", "Decorations", "Chocolate"]
+const checklist = document.getElementById("checklist")
 
-function fix() {
-  // Task:
-  // - Write a function to fix the UI problems with this Christmas message (make it Christmassy!)
-  // - Run the function when the Fix button is clicked.
-}
+// Task:
+// - For each item in the items array, create a div with a class of "checklist-item", which contains a checkbox input and corresponding label.
+// - Make sure that the shopping list can render a checkbox for all the items, even if new items are added to the items array.
 
-//Stretch goals:
-// - Add an extra theme, and the option to switch between them.
-// - Change the message and theme to a New Year’s one automatically on December 31st.
+// Stretch goals:
+// - Add an input which allows the user to add more items.
+// - Add a delete button for the items.
