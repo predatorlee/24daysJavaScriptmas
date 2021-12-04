@@ -5,10 +5,26 @@
     <body>
         <h1>Christmas Shopping List</h1>
         <div class="checklist" id="checklist">
-            <input type = "checkbox">
+            <input type = "checkbox" id="item1" name="item1" value="">
+            <label for="item1">Victoria Secret Body Mist</label>
+
+            <label></label>
         </div>
 
-        <script src="index.pack.js"></script>
+        <script>
+            var checkbox = document.createElement('input');
+checkbox.type = "checkbox";
+checkbox.name = "name";
+checkbox.value = "value";
+checkbox.id = "id";
+
+var label = document.createElement('label')
+label.htmlFor = "id";
+label.appendChild(document.createTextNode('text for label after checkbox'));
+
+container.appendChild(checkbox);
+container.appendChild(label);
+        </script>
 
     </body>
 </html>
